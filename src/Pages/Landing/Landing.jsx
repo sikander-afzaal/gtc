@@ -2,7 +2,7 @@ import Hero from "./Hero";
 
 const Landing = () => {
   return (
-    <div className="container">
+    <div className="container landing">
       <Hero />
     </div>
   );

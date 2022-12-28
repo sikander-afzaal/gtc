@@ -1,11 +1,11 @@
 .header-wrapp {
   position: fixed;
   top: 0;
+  background-color: white;
   left: 0;
 }
 header {
   height: 110px;
-  /* background-color: black; */
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -83,6 +83,12 @@ nav {
   display: none;
 }
 @media screen and (max-width: 1077px) {
+  header {
+    height: 80px;
+  }
+  header > img {
+    height: 80%;
+  }
   .header-toggle {
     display: block;
     position: relative;
