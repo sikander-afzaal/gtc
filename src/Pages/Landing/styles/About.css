@@ -1,0 +1,90 @@
+.about-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+  width: 100%;
+  padding-inline: 20px;
+  max-width: var(--max-width);
+}
+.about-div > .title {
+  margin-bottom: 30px;
+}
+.about-row {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  gap: 30px;
+}
+.text-div {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 10px;
+}
+.text-div p,
+.text-div ol li {
+  width: 100%;
+  max-width: 700px;
+  font-size: 17px;
+  line-height: 1.7;
+}
+.about-row img {
+  max-width: 500px;
+  width: 100%;
+  object-fit: contain;
+}
+.text-div h3 {
+  font-size: 30px;
+  color: var(--blue);
+  align-self: center;
+  text-align: center;
+}
+.text-div ol {
+  list-style-position: inside;
+}
+.about-div .about-row:last-of-type {
+  margin-top: 60px;
+}
+@media screen and (max-width: 950px) {
+  .about-row {
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-div .about-row:last-of-type {
+    margin-top: 40px;
+    flex-direction: column-reverse;
+  }
+  .text-div {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+  }
+  .about-div > .title {
+    margin-bottom: 0px;
+  }
+  .text-div p,
+  .text-div ol li {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .about-div {
+    gap: 20px;
+  }
+  .text-div {
+    align-items: flex-start;
+  }
+  .text-div p,
+  .text-div ol li {
+    text-align: left;
+    font-size: 14px;
+  }
+  .text-div h3 {
+    align-self: flex-start;
+    font-size: 25px;
+  }
+}

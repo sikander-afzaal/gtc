@@ -23,6 +23,9 @@ html {
 .landing {
   margin-top: 150px;
 }
+.mt-top {
+  margin-top: 70px;
+}
 @media screen and (max-width: 1077px) {
   .landing {
     margin-top: 100px;
