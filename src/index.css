@@ -26,7 +26,12 @@ html {
 .mt-top {
   margin-top: 70px;
 }
-@media screen and (max-width: 1077px) {
+@media screen and (max-width: 1400px) {
+  :root {
+    --max-width: 90%;
+  }
+}
+@media screen and (max-width: 1133px) {
   .landing {
     margin-top: 100px;
   }

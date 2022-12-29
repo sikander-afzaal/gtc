@@ -5,7 +5,7 @@
   flex-direction: column;
   gap: 40px;
   width: 100%;
-  padding-inline: 20px;
+
   max-width: var(--max-width);
 }
 .about-div > .title {
@@ -24,17 +24,17 @@
   align-items: flex-start;
   flex-direction: column;
   gap: 10px;
+  width: 100%;
 }
 .text-div p,
 .text-div ol li {
   width: 100%;
-  max-width: 700px;
   font-size: 17px;
   line-height: 1.7;
 }
 .about-row img {
-  max-width: 500px;
   width: 100%;
+  max-width: 700px;
   object-fit: contain;
 }
 .text-div h3 {
@@ -48,6 +48,11 @@
 }
 .about-div .about-row:last-of-type {
   margin-top: 60px;
+}
+@media screen and (max-width: 1245px) {
+  .about-row img {
+    max-width: 500px;
+  }
 }
 @media screen and (max-width: 950px) {
   .about-row {

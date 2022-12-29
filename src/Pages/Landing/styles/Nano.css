@@ -1,0 +1,115 @@
+.nano-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  max-width: var(--max-width);
+  text-align: left;
+}
+.nano-div .title {
+  line-height: 1.2;
+  text-align: center;
+}
+.nano-div h5 {
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+}
+.nano-div h3 {
+  font-size: 25px;
+  font-weight: 700;
+}
+.nano-div > p {
+  font-size: 18px;
+  margin-top: -10px;
+}
+.nano-row {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  max-width: 650px;
+  margin: 20px 0px;
+}
+.left-nano {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  max-width: 250px;
+}
+.left-nano img {
+  width: 80px;
+  object-fit: fill;
+}
+.left-nano h4 {
+  font-size: 20px;
+  color: var(--blue);
+  font-weight: bold;
+}
+.right-nano {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: left;
+  width: 100%;
+}
+.right-nano p {
+  font-size: 18px;
+}
+@media screen and (max-width: 831px) {
+  .nano-div {
+    align-items: flex-start;
+  }
+  .nano-div .title {
+    font-size: 30px;
+    text-align: left;
+  }
+  .nano-div h5 {
+    font-size: 18px;
+    text-align: left;
+  }
+  .nano-div h3 {
+    font-size: 20px;
+  }
+  .nano-div > p {
+    font-size: 16px;
+    margin-top: -10px;
+  }
+}
+@media screen and (max-width: 620px) {
+  .nano-div .title {
+    font-size: 25px;
+  }
+  .nano-div br {
+    display: none;
+  }
+  .nano-div h5 {
+    font-size: 16px;
+    text-align: left;
+  }
+  .nano-div h3 {
+    font-size: 18px;
+  }
+  .nano-div > p {
+    font-size: 16px;
+  }
+  .nano-row {
+    gap: 20px;
+    flex-direction: column;
+    text-align: center;
+    margin: 15px 0px;
+  }
+  .left-nano,
+  .right-nano {
+    width: 100%;
+    max-width: 100%;
+    justify-content: center;
+  }
+  .right-nano p {
+    text-align: center;
+  }
+}
