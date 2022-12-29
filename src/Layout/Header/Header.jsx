@@ -4,22 +4,40 @@ import {
   faXmark,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import "./Header.css";
 
 const Header = () => {
   const [dropDown, setDropDown] = useState(false);
   const [headerToggle, setHeaderToggle] = useState(false);
+  useEffect(() => {
+    const splide = document.querySelector(".splide");
+    if (headerToggle) {
+      splide.style.zIndex = "-1";
+    } else {
+      splide.style.zIndex = "1";
+    }
+  }, [headerToggle]);
+
   return (
     <div className="container header-wrapp">
       {headerToggle && <div className="overlay"></div>}
       <header>
         <img src="/logo.png" alt="" />
         <nav className={`${headerToggle ? "nav-active" : ""}`}>
-          <a href="#" className="navlink">
+          <a
+            onClick={() => setHeaderToggle(false)}
+            href="#"
+            className="navlink"
+          >
             Past
           </a>
-          <a href="#" className="navlink">
+          <a
+            onClick={() => setHeaderToggle(false)}
+            x
+            href="#"
+            className="navlink"
+          >
             About Us
           </a>
           <div className="navlink-div">
@@ -33,6 +51,7 @@ const Header = () => {
             <div className={`dropdown ${dropDown ? "active-drop" : ""}`}>
               <a
                 onClick={() => {
+                  setHeaderToggle(false);
                   setDropDown(false);
                 }}
                 href="#"
@@ -42,6 +61,7 @@ const Header = () => {
               <a
                 onClick={() => {
                   setDropDown(false);
+                  setHeaderToggle(false);
                 }}
                 href="#"
               >
@@ -49,16 +69,32 @@ const Header = () => {
               </a>
             </div>
           </div>
-          <a href="#" className="navlink">
+          <a
+            onClick={() => setHeaderToggle(false)}
+            href="#"
+            className="navlink"
+          >
             AAPI Adopt a Village
           </a>
-          <a href="#" className="navlink">
+          <a
+            onClick={() => setHeaderToggle(false)}
+            href="#"
+            className="navlink"
+          >
             DIPAM Program Platform
           </a>
-          <a href="#" className="navlink">
+          <a
+            onClick={() => setHeaderToggle(false)}
+            href="#"
+            className="navlink"
+          >
             Resources
           </a>
-          <a href="#" className="navlink">
+          <a
+            onClick={() => setHeaderToggle(false)}
+            href="#"
+            className="navlink"
+          >
             Contract
           </a>
         </nav>
