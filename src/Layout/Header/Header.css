@@ -3,6 +3,7 @@
   top: 0;
   background-color: white;
   left: 0;
+  z-index: 100;
 }
 header {
   height: 110px;

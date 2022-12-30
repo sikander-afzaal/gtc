@@ -27,7 +27,7 @@ const Header = () => {
         <nav className={`${headerToggle ? "nav-active" : ""}`}>
           <a
             onClick={() => setHeaderToggle(false)}
-            href="#"
+            href="#past"
             className="navlink"
           >
             Past
@@ -35,7 +35,7 @@ const Header = () => {
           <a
             onClick={() => setHeaderToggle(false)}
             x
-            href="#"
+            href="#about"
             className="navlink"
           >
             About Us
@@ -54,7 +54,7 @@ const Header = () => {
                   setHeaderToggle(false);
                   setDropDown(false);
                 }}
-                href="#"
+                href="#aapi"
               >
                 AAPI Adopt a Village
               </a>
@@ -63,7 +63,7 @@ const Header = () => {
                   setDropDown(false);
                   setHeaderToggle(false);
                 }}
-                href="#"
+                href="#dipam"
               >
                 DIPAM Program Platform
               </a>
@@ -71,31 +71,31 @@ const Header = () => {
           </div>
           <a
             onClick={() => setHeaderToggle(false)}
-            href="#"
+            href="#aapi"
             className="navlink"
           >
             AAPI Adopt a Village
           </a>
           <a
             onClick={() => setHeaderToggle(false)}
-            href="#"
+            href="#dipam"
             className="navlink"
           >
             DIPAM Program Platform
           </a>
           <a
             onClick={() => setHeaderToggle(false)}
-            href="#"
+            href="#resource"
             className="navlink"
           >
             Resources
           </a>
           <a
             onClick={() => setHeaderToggle(false)}
-            href="#"
+            href="#contact"
             className="navlink"
           >
-            Contract
+            Contact
           </a>
         </nav>
         <FontAwesomeIcon

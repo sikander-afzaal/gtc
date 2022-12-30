@@ -2,7 +2,7 @@ import "./styles/Hero.css";
 
 const Hero = () => {
   return (
-    <div className="container">
+    <div id="past" className="container">
       <div className="hero-div">
         <div className="left-hero">
           <h2 className="title">Our Past</h2>

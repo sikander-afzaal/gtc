@@ -5,7 +5,7 @@ const Services = () => {
     <div className="container mt-top">
       <div className="service-div">
         <h2 className="title">Our Servies</h2>
-        <div className="service-col">
+        <div id="dipam" className="service-col">
           <h3>1) DISEASE REVERSAL PROGRAM(DIPAM)</h3>
           <h4>
             DIGITAL INTEGRATED PREVENTION AND MANAGEMENT PROGRAM(DIPAM): BRING
@@ -57,7 +57,7 @@ const Services = () => {
             https://gtcdiseasereversal.com/login/index.php
           </a>{" "}
         </div>
-        <div className="service-col">
+        <div id="aapi" className="service-col">
           <h3>2) AAPI ADOPT A VILLAGE </h3>
           <h4>
             VISION: RURAL PREVENTIVE HEALTH SCREENING OF 75 VILLAGES PAN INDIA
