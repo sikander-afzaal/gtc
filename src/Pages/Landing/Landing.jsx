@@ -5,6 +5,7 @@ import Nano from "./Nano";
 import Resources from "./Resources";
 import Roadmap from "./Roadmap";
 import Services from "./Services";
+import Tech from "./Tech";
 
 const Landing = () => {
   return (
@@ -14,6 +15,7 @@ const Landing = () => {
       <Services />
       <Roadmap />
       <Nano />
+      <Tech />
       <Resources />
       <Contact />
     </div>
