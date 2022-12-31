@@ -60,6 +60,19 @@
 .right-nano p {
   font-size: 18px;
 }
+.store-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.store-div a {
+  cursor: pointer;
+}
+.store-div a img {
+  height: 60px;
+  object-fit: fill;
+}
 @media screen and (max-width: 831px) {
   .nano-div {
     align-items: flex-start;
@@ -111,5 +124,16 @@
   }
   .right-nano p {
     text-align: center;
+  }
+}
+@media screen and (max-width: 480px) {
+  .store-div {
+    width: 100%;
+    align-items: flex-start;
+    gap: 10px;
+    flex-direction: column;
+  }
+  .store-div a img {
+    height: 50px;
   }
 }
