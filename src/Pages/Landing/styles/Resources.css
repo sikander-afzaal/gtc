@@ -11,8 +11,20 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  flex-wrap: wrap;
   width: 100%;
-  gap: 20px;
+  gap: 25px;
   margin-top: 10px;
+}
+.resource-links a img {
+  width: 130px;
+  object-fit: contain;
+}
+.bg-green {
+  background-color: var(--blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
 }

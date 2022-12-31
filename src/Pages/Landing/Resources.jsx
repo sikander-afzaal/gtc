@@ -7,16 +7,20 @@ const Resources = () => {
         <h2 className="title">Resources</h2>
         <div className="resource-links">
           <a href="https://plantbasedlosangeles.org" target={"blank"}>
-            https://plantbasedlosangeles.org{" "}
+            <img src="/plant.jpg" alt="" />
           </a>
           <a href="https://nutritionfacts.org/" target={"blank"}>
-            https://nutritionfacts.org/
+            <img src="/nutrition.svg" alt="" />
           </a>
           <a href="https://www.pcrm.org/" target={"blank"}>
-            https://www.pcrm.org/
+            <img src="/physicians.svg" alt="" />
           </a>
-          <a href="https://www.ijdrp.org/index.php/ijdrp" target={"blank"}>
-            https://www.ijdrp.org/index.php/ijdrp
+          <a
+            className="bg-green"
+            href="https://www.ijdrp.org/index.php/ijdrp"
+            target={"blank"}
+          >
+            <img src="/ijdrp.png" alt="" />
           </a>
         </div>
       </div>
