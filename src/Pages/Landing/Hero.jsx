@@ -15,7 +15,7 @@ const Hero = () => {
             finally, we started global teleclinics (GTC) as a separate entity to
             focus on noncommunicable diseases prevention and management.{" "}
           </p>
-          <a href="/pdf1.pdf" download>
+          <a href="/pdf1.pdf" target={"blank"}>
             Learn More
           </a>
         </div>

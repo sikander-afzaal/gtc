@@ -131,9 +131,13 @@
     width: 100%;
     align-items: flex-start;
     gap: 10px;
-    flex-direction: column;
+    /* flex-direction: column; */
+  }
+  .store-div a {
+    width: 100%;
   }
   .store-div a img {
-    height: 50px;
+    width: 100%;
+    object-fit: contain;
   }
 }

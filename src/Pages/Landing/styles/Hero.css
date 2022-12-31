@@ -46,6 +46,9 @@
   background-color: var(--light-blue);
   transition: all 0.5s ease-in-out;
 }
+.hero-div a:visited {
+  color: white !important;
+}
 .hero-div a:hover {
   background-color: white;
   color: var(--light-blue);

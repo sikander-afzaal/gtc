@@ -15,7 +15,13 @@ header {
 
   max-width: var(--max-width);
 }
-header > img {
+.logo {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo img {
   height: 90%;
   object-fit: contain;
 }
@@ -36,6 +42,9 @@ nav {
   gap: 10px;
   line-height: 1;
   text-decoration: none;
+}
+.navlink:visited {
+  color: var(--blue) !important;
 }
 .navlink svg {
   line-height: 1;
@@ -87,7 +96,7 @@ nav {
   header {
     height: 80px;
   }
-  header > img {
+  .logo img {
     height: 80%;
   }
   .header-toggle {

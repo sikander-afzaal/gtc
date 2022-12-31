@@ -48,10 +48,22 @@ const About = () => {
               the near future.
             </p>
             <p style={{ color: "var(--blue)", fontWeight: "bold" }}>
-              Facebook- plantbasedlosangeles{" "}
+              Facebook-{" "}
+              <a
+                href="https://www.facebook.com/losangelesplantbased/"
+                target={"blank"}
+              >
+                plantbasedlosangeles
+              </a>{" "}
             </p>
             <p style={{ color: "var(--blue)", fontWeight: "bold" }}>
-              Instagram-siri_healthfoods{" "}
+              Instagram-{" "}
+              <a
+                href="https://www.instagram.com/siri_healthfoods/?hl=en"
+                target={"blank"}
+              >
+                siri_healthfoods
+              </a>
             </p>
             <p>
               My message is loud and clear. While it is worthwhile to switch out
@@ -83,7 +95,7 @@ const About = () => {
               . 
             </p>
           </div>
-          <img src="/gokula.jpg" alt="" />
+          <img src="/srisha.jpg" alt="" />
         </div>
       </div>
     </div>

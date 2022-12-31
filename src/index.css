@@ -37,3 +37,6 @@ html {
     margin-top: 100px;
   }
 }
+a:visited {
+  color: blue !important;
+}

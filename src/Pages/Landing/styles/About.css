@@ -35,6 +35,7 @@
 .about-row img {
   width: 100%;
   max-width: 700px;
+  max-height: 650px;
   object-fit: contain;
 }
 .text-div h3 {
@@ -43,11 +44,18 @@
   align-self: center;
   text-align: center;
 }
+.text-div a {
+  text-decoration: none;
+  color: var(--blue) !important;
+}
+.text-div a:visited {
+  color: var(--blue) !important;
+}
 .text-div ol {
   list-style-position: inside;
 }
 .about-div .about-row:last-of-type {
-  margin-top: 60px;
+  margin-top: 140px;
 }
 @media screen and (max-width: 1245px) {
   .about-row img {

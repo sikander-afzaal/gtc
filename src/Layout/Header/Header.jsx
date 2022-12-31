@@ -23,7 +23,9 @@ const Header = () => {
     <div className="container header-wrapp">
       {headerToggle && <div className="overlay"></div>}
       <header>
-        <img src="/logo.png" alt="" />
+        <a className="logo" href="#past">
+          <img src="/logo.png" alt="" />
+        </a>
         <nav className={`${headerToggle ? "nav-active" : ""}`}>
           <a
             onClick={() => setHeaderToggle(false)}
