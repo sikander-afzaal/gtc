@@ -42,7 +42,7 @@ const Header = () => {
           >
             About Us
           </a>
-          <div className="navlink-div">
+          {/* <div className="navlink-div">
             <p onClick={() => setDropDown((prev) => !prev)} className="navlink">
               Services{" "}
               <FontAwesomeIcon
@@ -70,7 +70,14 @@ const Header = () => {
                 DIPAM Program Platform
               </a>
             </div>
-          </div>
+          </div> */}
+          <a
+            onClick={() => setHeaderToggle(false)}
+            href="#dipam"
+            className="navlink"
+          >
+            Disease Reversal Program
+          </a>
           <a
             onClick={() => setHeaderToggle(false)}
             href="#aapi"
@@ -80,7 +87,7 @@ const Header = () => {
           </a>
           <a
             onClick={() => setHeaderToggle(false)}
-            href="#dipam"
+            href="#platform"
             className="navlink"
           >
             DIPAM Program Platform

@@ -16,10 +16,7 @@
   column-gap: 20px;
 }
 .tech-col {
-  grid-template-rows:
-    400px 150px 150px
-    190px;
-
+  grid-template-rows: 1fr;
   display: grid;
   grid-template-columns: 1fr;
   gap: 20px;
@@ -42,6 +39,7 @@
   font-size: 24px;
   color: var(--blue);
   text-align: center;
+  height: 66px;
   align-self: center;
 }
 .tech-row img {
@@ -83,8 +81,8 @@
     row-gap: 50px;
     grid-template-columns: 1fr;
   }
-  .tech-col {
-    grid-template-rows: auto auto auto auto;
+  .tech-col h3 {
+    height: auto;
   }
 }
 @media screen and (max-width: 400px) {

@@ -19,10 +19,15 @@
   color: var(--blue);
   font-size: 25px;
   text-decoration: underline;
+  align-self: center;
+  text-align: center;
 }
 .service-col h4 {
   font-size: 18px;
+  align-self: center;
+  text-align: center;
   font-weight: bold;
+  margin: 10px 0px;
 }
 .service-col p,
 .service-col ol li {
@@ -34,7 +39,64 @@
   list-style-type: upper-roman;
 }
 .service-col a {
-  word-break: break-all;
+  font-size: 17px;
+  font-weight: 700;
+  cursor: pointer;
+  border: 2px solid var(--light-blue);
+  text-decoration: none;
+  border-radius: 10px;
+  line-height: 1;
+  color: white;
+  display: grid;
+  place-items: center;
+  width: max-content;
+  padding-inline: 20px;
+  height: 55px;
+  background-color: var(--light-blue);
+  transition: all 0.5s ease-in-out;
+}
+.service-col a:visited {
+  color: white !important;
+}
+.service-col a:hover {
+  background-color: white;
+  color: var(--light-blue) !important;
+}
+
+.objectives {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 20px;
+  width: 100%;
+  flex-wrap: wrap;
+  margin: 20px 0px;
+}
+
+.objective {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  border: 2px solid var(--blue);
+  width: 300px;
+  padding: 20px;
+  border-radius: 10px;
+  color: black;
+  text-align: center;
+  box-shadow: 0px 0px 5px 0px var(--blue);
+}
+.objective img {
+  width: 120px;
+  height: 120px;
+}
+.objective h1 {
+  font-size: 25px;
+}
+.objective p {
+  font-size: 16px;
+  text-align: center;
 }
 @media screen and (max-width: 950px) {
   .service-col p,

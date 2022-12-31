@@ -2,11 +2,10 @@ import "./styles/Nano.css";
 
 const Nano = () => {
   return (
-    <div className="container mt-top">
+    <div id="platform" className="container mt-top">
       <div className="nano-div">
-        <h2 className="title">
-          GTC DIPAM PLATFORM: POWERED BY <br /> NANO HEALTH, HYDERABAD, INDIA
-        </h2>
+        <h2 className="title">GTC DIPAM PLATFORM</h2>
+        <h3 className="sub">POWERED BY NANO HEALTH, HYDERABAD, INDIA</h3>
         <h5>
           Comprehensive and integrated Digital Disease Management Platform that
           enables delivery of pro-a ctive, coordinated& continuous care to
@@ -29,32 +28,22 @@ const Nano = () => {
         </div>
         <h3>Integrated and Comprehensive healthcare for our society</h3>
         <p>Better Health. Lower Hospitalization. Reduced Mortality.</p>
-        <div className="nano-row">
-          <div className="left-nano">
+        <div className="objectives">
+          <div className="objective">
             <img src="/proactive.svg" alt="" />
-            <h4>Proactive</h4>
-          </div>
-          <div className="right-nano">
+            <h3>Proactive:</h3>
             <p>Population based risk-profiling and follow up</p>
           </div>
-        </div>
-        <div className="nano-row">
-          <div className="left-nano">
+          <div className="objective">
             <img src="/team.png" alt="" />
-            <h4>Coordinated</h4>
-          </div>
-          <div className="right-nano">
+            <h3>Coordinated:</h3>
             <p>
               Multiple stakeholders work in tandem with 360° view of the patient
             </p>
           </div>
-        </div>
-        <div className="nano-row">
-          <div className="left-nano">
+          <div className="objective">
             <img src="/continous.png" alt="" />
-            <h4>Proactive</h4>
-          </div>
-          <div className="right-nano">
+            <h3>Continous</h3>
             <p>
               Transition from reactive symptomatic care to proactive health care
             </p>

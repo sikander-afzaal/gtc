@@ -75,7 +75,10 @@ const About = () => {
               and some responsible use of a small glass of wine.{" "}
             </p>
             <p>
-              So it's as easy as simply sticking to these six simple habits:{" "}
+              <strong>
+                {" "}
+                So it's as easy as simply sticking to these six simple habits:
+              </strong>{" "}
             </p>
             <ol>
               <li>Whole food Plant-based diet</li>
@@ -86,13 +89,9 @@ const About = () => {
               <li>Weight and waist control </li>
             </ol>
             <p>
-              Quote about plant based diet:{" "}
-              <strong>
-                “There is only one you and also there is no planet B- If you are
-                concerned about your health and planetary health, add more plant
-                on your plates”
-              </strong>
-              . 
+              <strong> Quote about plant based diet:</strong> “There is only one
+              you and also there is no planet B- If you are concerned about your
+              health and planetary health, add more plant on your plates” . 
             </p>
           </div>
           <img src="/srisha.jpg" alt="" />

@@ -13,8 +13,8 @@ const Landing = () => {
       <Hero />
       <About />
       <Services />
-      <Roadmap />
       <Nano />
+      <Roadmap />
       <Tech />
       <Resources />
       <Contact />

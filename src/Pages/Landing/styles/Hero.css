@@ -51,9 +51,9 @@
 }
 .hero-div a:hover {
   background-color: white;
-  color: var(--light-blue);
+  color: var(--light-blue) !important;
 }
-@media screen and (max-width: 1077px) {
+@media screen and (max-width: 1300px) {
   .hero-div {
     text-align: center;
     align-items: center;

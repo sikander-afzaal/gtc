@@ -6,26 +6,39 @@ const Services = () => {
       <div className="service-div">
         <h2 className="title">Our Servies</h2>
         <div id="dipam" className="service-col">
-          <h3>1) DISEASE REVERSAL PROGRAM(DIPAM)</h3>
+          <h3>DISEASE REVERSAL PROGRAM(DIPAM)</h3>
           <h4>
-            DIGITAL INTEGRATED PREVENTION AND MANAGEMENT PROGRAM(DIPAM): BRING
+            DIGITAL INTEGRATED PREVENTION AND MANAGEMENT PROGRAM: <br /> BRING
             LIGHT THROUGH HEALING HANDS{" "}
           </h4>
+          <div className="objectives">
+            <div className="objective">
+              <img src="/mission.jpg" alt="" />
+              <h3>Mission:</h3>
+              <p>
+                To bring Non-Communicable Diseases (NCDs) screening and
+                prevention to rural people at their door steps of India
+              </p>
+            </div>
+            <div className="objective">
+              {" "}
+              <img src="/vision.png" alt="" />
+              <h3>Vision:</h3>
+              <p>
+                Raise awareness of disease management and reversal of
+                Non-Communicable Diseases to Improve health outcomes and connect
+                rural India with medical providers and partners.
+              </p>
+            </div>
+          </div>
           <p>
-            <strong>Mission:</strong> To bring Non-Communicable Diseases (NCDs)
-            screening and prevention to rural and urban people at their door
-            steps of India.{" "}
-          </p>
-          <p>
-            <strong>Vision:</strong> Raise awareness of disease management and
-            reversal of Non-Communicable Diseases to Improve health outcomes and
-            connect rural and urban India with medical providers and partners.
-          </p>
-          <p>
-            GTC DIPAM disease management and reversal program uses a very
-            comprehensive personalized approach that is individually tailored
-            and can be applied to any chronic disease. The five-step protocol we
-            follow is:{" "}
+            <strong>
+              {" "}
+              GTC DIPAM disease management and reversal program uses a very
+              comprehensive personalized approach that is individually tailored
+              and can be applied to any chronic disease. The five-step protocol
+              we follow is:{" "}
+            </strong>
           </p>
           <ol>
             <li>
@@ -46,23 +59,16 @@ const Services = () => {
               protocols for the chronic disease that is being addressed{" "}
             </li>
           </ol>
-          <p>
-            PEOPLE WHO COME TO THE SITE CAN CLICK ON THE DISEASE REVERSAL TAB
-            AND REACH THIS SITE:{" "}
-          </p>
           <a
             href="https://gtcdiseasereversal.com/login/index.php"
             target={"blank"}
           >
-            https://gtcdiseasereversal.com/login/index.php
+            Login into GTC Disease Program
           </a>{" "}
         </div>
         <div id="aapi" className="service-col">
-          <h3>2) AAPI ADOPT A VILLAGE </h3>
-          <h4>
-            VISION: RURAL PREVENTIVE HEALTH SCREENING OF 75 VILLAGES PAN INDIA
-            BY THE END OF DECEMBER 2023{" "}
-          </h4>
+          <h3>AAPI ADOPT A VILLAGE </h3>
+
           <p>
             The pilot project was initiated in August 2021 by DR ANUPAMA
             GOTIMUKULA, MD AAPI PRESIDENT (2021-2022). By the end of December
@@ -91,14 +97,11 @@ const Services = () => {
             India with minimal access to healthcare and compliment the efforts
             of AAPI on promoting the need of Annual Physical health screening'
             and development of the 'Indian Preventive Health Task Force.' Thank
-            you. - <strong>Dr. Anupama Gotimukula</strong>{" "}
+            you. <br /> <strong>Dr. Anupama Gotimukula</strong>{" "}
           </p>
-          <p>
-            PEOPLE WHO COME TO THE SITE CAN CLICK ON THE ADOPT A VILLAGE TAB AND
-            REACH THIS SITE:
-          </p>
+
           <a href="https://village-smaller.vercel.app" target={"blank"}>
-            https://village-smaller.vercel.app/{" "}
+            AAPI ADOPT A VILLAGE (AAPI)
           </a>
         </div>
       </div>
