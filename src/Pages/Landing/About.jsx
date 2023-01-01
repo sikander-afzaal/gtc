@@ -17,12 +17,12 @@ const About = () => {
               Michigan, Ann Arbor, where he completed a fellowship in geriatrics
               and became board certified in family medicine and geriatrics.
               Gokula has been an invited speaker at several national and
-              regional conferences and written multiple publications.He was
+              regional conferences and written multiple publications. He was
               grant funded to do several research projects. In 2020 Dr. Gokula
               became board certified in Lifestyle Medicine. Currently, he is
-              pursuing a online fellowship with American Academy of Anti-Aging
-              Medicine (Bio Identical hormones, platelet rich plasma, herbal
-              medications, gut health).{" "}
+              pursuing an online fellowship with the American Academy of
+              Anti-Aging Medicine (Bio Identical hormones, platelet rich plasma,
+              herbal medications, gut health).{" "}
             </p>
           </div>
         </div>
@@ -66,13 +66,13 @@ const About = () => {
               </a>
             </p>
             <p>
-              My message is loud and clear. While it is worthwhile to switch out
-              your plastic water bottles for glass, buy non-GMO products and use
-              phthalate-free toothpaste, it is more important to first conquer
-              the six habits that can make heart attacks and chronic diseases
-              nearly extinct. The number one killer of men and women can be
-              tamed with your fork, your feet, your fingers far from cigarettes,
-              and some responsible use of a small glass of wine.{" "}
+              Our message is loud and clear. While it is worthwhile to switch
+              out your plastic water bottles for glass, buy non-GMO products and
+              use phthalate-free toothpaste, it is more important to first
+              conquer the six habits that can make heart attacks and chronic
+              diseases nearly extinct. The number one killer of men and women
+              can be tamed with your fork, your feet, your fingers far from
+              cigarettes, and some responsible use of a small glass of wine.{" "}
             </p>
             <p>
               <strong>
