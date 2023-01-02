@@ -1,14 +1,9 @@
-import {
-  faBars,
-  faChevronDown,
-  faXmark,
-} from "@fortawesome/free-solid-svg-icons";
+import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useEffect, useState } from "react";
 import "./Header.css";
 
 const Header = () => {
-  const [dropDown, setDropDown] = useState(false);
   const [headerToggle, setHeaderToggle] = useState(false);
   useEffect(() => {
     const splide = document.querySelector(".splide");
@@ -42,35 +37,7 @@ const Header = () => {
           >
             About Us
           </a>
-          {/* <div className="navlink-div">
-            <p onClick={() => setDropDown((prev) => !prev)} className="navlink">
-              Services{" "}
-              <FontAwesomeIcon
-                style={{ transform: dropDown ? "rotate(180deg)" : "none" }}
-                icon={faChevronDown}
-              />
-            </p>
-            <div className={`dropdown ${dropDown ? "active-drop" : ""}`}>
-              <a
-                onClick={() => {
-                  setHeaderToggle(false);
-                  setDropDown(false);
-                }}
-                href="#aapi"
-              >
-                AAPI Adopt a Village
-              </a>
-              <a
-                onClick={() => {
-                  setDropDown(false);
-                  setHeaderToggle(false);
-                }}
-                href="#dipam"
-              >
-                DIPAM Program Platform
-              </a>
-            </div>
-          </div> */}
+
           <a
             onClick={() => setHeaderToggle(false)}
             href="#dipam"
