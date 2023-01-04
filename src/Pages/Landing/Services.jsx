@@ -8,8 +8,8 @@ const Services = () => {
         <div id="dipam" className="service-col">
           <h3>DISEASE REVERSAL PROGRAM(DIPAM)</h3>
           <h4>
-            DIGITAL INTEGRATED PREVENTION AND MANAGEMENT PROGRAM: <br /> BRING
-            LIGHT THROUGH HEALING HANDS{" "}
+            DIGITAL INTEGRATED PREVENTION AND MANAGEMENT PROGRAM (DIPAM): <br />{" "}
+            BRING LIGHT THROUGH HEALING HANDS{" "}
           </h4>
           <div className="objectives">
             <div className="objective">
@@ -17,7 +17,7 @@ const Services = () => {
               <h3>Mission:</h3>
               <p>
                 To bring Non-Communicable Diseases (NCDs) screening and
-                prevention to rural people at their door steps of India
+                prevention to rural and urban areas people at their door steps
               </p>
             </div>
             <div className="objective">
@@ -27,11 +27,11 @@ const Services = () => {
               <p>
                 Raise awareness of disease management and reversal of
                 Non-Communicable Diseases to Improve health outcomes and connect
-                rural India with medical providers and partners.
+                rural and urban areas with medical providers and partners.
               </p>
             </div>
           </div>
-          <p>
+          <p className="sub-head">
             <strong>
               {" "}
               GTC DIPAM disease management and reversal program uses a very
@@ -59,12 +59,17 @@ const Services = () => {
               protocols for the chronic disease that is being addressed{" "}
             </li>
           </ol>
-          <a
-            href="https://gtcdiseasereversal.com/login/index.php"
-            target={"blank"}
-          >
-            Login into GTC Disease Program
-          </a>{" "}
+          <div className="btn-div">
+            <a
+              href="https://gtcdiseasereversal.com/login/index.php"
+              target={"blank"}
+            >
+              Login into GTC Disease Reversal Program
+            </a>{" "}
+            <a href="#" target={"blank"}>
+              Learn More
+            </a>{" "}
+          </div>
         </div>
         <div id="aapi" className="service-col">
           <h3>AAPI ADOPT A VILLAGE </h3>
@@ -100,9 +105,12 @@ const Services = () => {
             you. <br /> <strong>Dr. Anupama Gotimukula</strong>{" "}
           </p>
 
-          <a href="https://village-smaller.vercel.app" target={"blank"}>
-            AAPI ADOPT A VILLAGE (AAPI)
-          </a>
+          <div className="btn-div">
+            <a href="https://village-smaller.vercel.app" target={"blank"}>
+              AAPI ADOPT A VILLAGE (AAPI)
+            </a>
+            <a href="#">Learn More</a>
+          </div>
         </div>
       </div>
     </div>

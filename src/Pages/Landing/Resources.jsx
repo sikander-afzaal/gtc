@@ -6,8 +6,12 @@ const Resources = () => {
       <div className="resource-div">
         <h2 className="title">Resources</h2>
         <div className="resource-links">
-          <a href="https://plantbasedlosangeles.org" target={"blank"}>
-            <img src="/plant.jpg" alt="" />
+          <a
+            href="https://plantbasedlosangeles.org"
+            className="plant"
+            target={"blank"}
+          >
+            Plant Based <br /> Los Angeles
           </a>
           <a href="https://nutritionfacts.org/" target={"blank"}>
             <img src="/nutrition.svg" alt="" />

@@ -22,17 +22,25 @@
   align-self: center;
   text-align: center;
 }
+
 .service-col h4 {
   font-size: 18px;
   align-self: center;
   text-align: center;
   font-weight: bold;
+  color: var(--light-blue);
   margin: 10px 0px;
 }
+
 .service-col p,
 .service-col ol li {
   font-size: 17px;
   line-height: 1.7;
+}
+.service-col .sub-head {
+  text-align: left;
+  margin: 0;
+  font-size: 18px;
 }
 .service-col ol {
   list-style-position: inside;
@@ -98,6 +106,12 @@
   font-size: 16px;
   text-align: center;
 }
+.btn-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
 @media screen and (max-width: 950px) {
   .service-col p,
   .service-col ol li {
@@ -108,6 +122,16 @@
   }
   .service-col h4 {
     font-size: 16px;
+  }
+}
+@media screen and (max-width: 560px) {
+  .btn-div {
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+  }
+  .btn-div a {
+    width: 100%;
   }
 }
 @media screen and (max-width: 420px) {

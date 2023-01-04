@@ -16,6 +16,15 @@
   gap: 25px;
   margin-top: 10px;
 }
+.resource-links .plant {
+  background: var(--blue);
+  padding: 20px;
+  border-radius: 10px;
+  color: white !important;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 1.4;
+}
 .resource-links a img {
   width: 130px;
   object-fit: contain;

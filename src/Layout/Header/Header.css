@@ -29,11 +29,11 @@ nav {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  gap: 30px;
+  gap: 25px;
 }
 .navlink {
   color: var(--blue);
-  font-size: 17px;
+  font-size: 18px;
   font-weight: 600;
   cursor: pointer;
   display: flex;

@@ -12,6 +12,7 @@ const Nano = () => {
           patients screened to enhance their health, reduce hospitalization
           rates and lower healthcare costs-Realising the Vision of DIPAM
         </h5>
+        <h3>Download Our Mobile App</h3>
         <div className="store-div">
           <a
             href="https://play.google.com/store/apps/details?id=com.dipam.gtc.user"
