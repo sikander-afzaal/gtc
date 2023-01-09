@@ -6,7 +6,7 @@ const Services = () => {
       <div className="service-div">
         <h2 className="title">Our Servies</h2>
         <div id="dipam" className="service-col">
-          <h3>DISEASE REVERSAL PROGRAM(DIPAM)</h3>
+          <h3>DISEASE REVERSAL PROGRAM</h3>
           <h4>
             DIGITAL INTEGRATED PREVENTION AND MANAGEMENT PROGRAM (DIPAM): <br />{" "}
             BRING LIGHT THROUGH HEALING HANDS{" "}
@@ -17,7 +17,7 @@ const Services = () => {
               <h3>Mission:</h3>
               <p>
                 To bring Non-Communicable Diseases (NCDs) screening and
-                prevention to rural and urban areas people at their door steps
+                prevention to rural and urban people at their door steps
               </p>
             </div>
             <div className="objective">

@@ -148,4 +148,7 @@
   .service-col .ol li {
     font-size: 14px;
   }
+  .service-col a {
+    font-size: 14px;
+  }
 }
